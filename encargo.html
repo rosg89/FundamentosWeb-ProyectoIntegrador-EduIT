@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="top">
+        <h1>La casa de pan</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio </a>
+        <a href="index.html#servicios">Servicios </a>
+        <a href="encargo.html">Contacto</a>
+    </nav>
+
+    <main>
+
+
+        <div>
+            <h3>Quieres contactarnos?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ab magnam consequuntur optio fugit
+                dolor sapiente, fuga veritatis quae quas illo nobis et tenetur sunt aspernatur unde praesentium? Iure,
+                asperiores!</p>
+            <a href="mailto: info@lacasadepan.com">info@lacasadepan.com</a>
+        </div>
+
+        <div class="centro">
+            <h3>Formulario de encargo</h3>
+        </div>
+
+        <form action="codigo.php" method="post">
+            <br>
+            <label>Nombre:
+                <input type="text" placeholder="Nombre" required>
+                <span>*</span>
+            </label>
+
+            <label>Apellido:
+                <input type="text" placeholder="Apellido" required>
+                <span>*</span>
+            </label>
+
+            <label>E-mail:
+                <input type="email" name="" placeholder="info@dominio.com" required>
+                <span>*</span>
+            </label>
+
+            <label>Edad: <input type="number" name="" id="" min="18" step="2"></label>
+
+            <label>Provincia:
+                <input type="text" placeholder="Provincia" required>
+                <span>*</span>
+            </label>
+
+            <label>Ciudad:
+                <input type="text" placeholder="Ciudad" required>
+                <span>*</span>
+            </label>
+
+            <label>Ya es cliente?
+
+                <input type="radio" value="Si" name="cliente"> Si
+                <input type="radio" value="No" name="cliente"> No
+            </label>
+
+            <label>Qué desea encargar?
+
+                <label><input type="checkbox" name="encargo" value="Tortas">Tortas</label>
+                <label><input type="checkbox" name="encargo" value="MasasFinas">Masas finas</label>
+                <label><input type="checkbox" name="encargo" value="Cupcakes">Cupcakes</label>
+                <label><input type="checkbox" name="encargo" value="DiasFestivos">Días Festivos</label>
+            </label>
+
+            <label>Comentarios:
+                <br>
+                <textarea name="" cols="30" rows="10"></textarea>
+            </label>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+
+        </form>
+
+
+    </main>
+    <br>
+
+
+
+    <footer>
+        <div class="iconos">
+            <a href="http://facebook.com"><i class="fab fa-facebook icono"></i></i></a>
+            <a href="http://linkedin.com"><i class="fab fa-linkedin icono"></i></a>
+            <a href="http://instagram.com"><i class="fab fa-instagram icono"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

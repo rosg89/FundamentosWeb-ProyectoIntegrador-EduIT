@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Vollkorn:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+body {
+    background-color:#fefae0;
+    color: #876445;
+    font-family: 'Vollkorn', serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0;
+}
+
+.logo2 {
+    color: #F4DFBA;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
+
+div {
+    padding: 10px;
+}
+
+.top {
+    background-color: #283618;
+    text-align: center;    
+    margin: 0%;
+    padding: 20px;
+    color: #fefae0;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px; 
+}
+
+nav {
+    text-align: center;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #606c38;
+
+    }
+
+
+nav a {
+        color: #fefae0;
+        text-decoration: none;
+    }
+    
+nav a:visited {
+        color: #fefae0;
+        text-decoration: none;
+    }
+    
+nav a:hover {
+        color: #ff0000;
+        text-decoration: none;
+    
+    }
+    
+nav a:active {
+            color: #ffae00;
+            text-decoration: none;
+    
+        }
+
+h2, h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+.icono {
+    color: #283618;
+    font-size: 50px;
+}
+
+
+a {
+    color: #283618;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    width: 500px;
+    height: auto;
+    border: 3px dotted #876445 ;
+    margin: auto;
+    text-align: center;
+}
+
+textarea {
+    border: 3px dotted #876445; 
+}
+
+label {
+    display: block;
+}
+
+.encolumnar {
+  
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.izq {
+    display: flex;
+    justify-content: right;
+    margin: 0%;
+
+}
+
+.der {
+    text-align: left;
+}
+
+p {
+    width: 600px;
+    padding: 5px;
+
+}
+
+
+.servicios {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #606c38;
+}
+
+
+.horizonte {
+    display: flex;
+    align-items: center;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+}
